@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Font cdn from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!--animation on scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--css style sheet-->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css">
+    <title>Foodpad</title>
+  </head>
+  <body>
+    <!--Header and hero section -->
+    <header class="header">
+      <!--navbar-->
+      <nav class="navbar ">
+         <h3 class="logo-text">Food<span>pad</span> </h3>
+         <ul class="nav-main-links">
+          <li class="nav-links"><a href="/" class="nav-link">Home</a></li>
+          <li class="nav-links"><a href="#about " class="nav-link">About</a></li>
+          <li class="nav-links"><a href="#services" class="nav-link">Featuress</a></li>
+          <li class="nav-links"><a href="/" class="nav-link signup">Signup</a></li>
+          <li class="nav-links"><a href="/" class="nav-link signup">Login</a></li>
+         </ul>
+         <button class="btn-mobile-nav"><ion-icon class="icon-mobile-nav" name="menu-outline" ></ion-icon><ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon></button>
+      </nav>
+          <section class="hero">
+            <div class="hero--section grid grid--2--cols" data-aos="zoom-in">
+              <div class="hero-text">
+                <h1 class="heading-primary" >How many times have we forgotten to note down our fav food recipes from cooking channels?</h1>
+                <p class="hero--description">Sign Up to Browse all the popular food recipies <br> in a single place.</p>
+                <a href="/" class="signup">Sign Up &rArr;</a>
+                <a href="/" class="signup pleft">Login &rArr;</a>
+              </div>
+              <div class="hero-img-box">
+                <img src="img/hero.png" class="hero-img" alt="cooking illustrator">
+              </div>
+            </div>
+          </section>
+    </header>
+
+    <section class="cards--section" id="services">
+      <div class="container" data-aos="flip-up">
+        <h2 class="heading-secondary ">Foodpad, <span class="em-text">your food wattpad</span></h2>
+      </div>
+      <div class="container grid grid--3--cols" data-aos="flip-up">
+    <div class="cards">
+      <ion-icon name="browsers-outline"></ion-icon>
+      <p class="card-text">
+       Browse lucious food recipes, <br> write recipes,& read  interesting <br> food blogs.
+      </p>
+    </div>
+    <div class="cards">
+      <ion-icon name="play-circle-outline"></ion-icon>
+      <p class="card-text">
+        listen to audio recipes, watch video recipes and get all your foody doubts clarified here for FREE!!
+      </p>
+    </div>
+    <div class="cards">
+      <ion-icon name="log-in-outline"></ion-icon>
+      <p class="card-text">
+        Register for masterclasses from top chefs and find Culinary tips and tricks straight from the expert.
+      </p>
+    </div>
+      </div>
+    </section>
+   
+    <section class="about" id="about">
+      <div class="container bg-dark" data-aos="zoom-in">
+        <h2 class="heading-secondary pad">Why Food<span class="em-text">pad?</span></h2>
+        <div class="grid grid-2-cols">
+          <div class="about-img-box">
+            <img src="/img/about.webp" class="about-img" alt="">
+          </div>
+          <div class="about-text-box">
+            <p class="about-text">We all have different ways of cooking and we longed to share our recipe with the world. We all have different ways of consuming content. But how often did we find everything in one place?
+             Our deepest desires were to learn everything about cooking from our favourite chefs.
+             We have been there! We understand!
+             Don't worry we've got you covered.
+             For all the food nerds out there
+             We are launching a food website to find all the recipies in a single place. Here you will find lucious food recipes, you can write recipes, read interesting food blogs,
+             listen to audio recipes, watch video recipes and get all your foody doubts clarified here.. for FREE!! You can also register for masterclasses from top chefs and find Culinary tips and tricks straight from the expert,
+             on how to cook scrumptious, instagram ready dishes that are clean, healthy, and energizing. </p>
+           </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container" data-aos="flip-up">
+        <div class="grid grid--3--cols">
+          <div class="logo-box">
+            <h3 class="logo-text pbottom">Food<span>pad</span> </h3>
+            <p class="footer-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet, Bangalore -560000
+            </p>
+            <p class="footer-text">+91 12345-56789</p>
+          </div>
+          <div class="link-box">
+            <h3 class="logo-text pbottom">Our Links </h3>
+            <p class="footer-text">Home</p>
+            <p class="footer-text">About</p>
+            <p class="footer-text">Features</p>
+          </div>
+
+          <div class="link-box">
+            <h3 class="logo-text pbottom">Other Links </h3>
+            <p class="footer-text">Privacy</p>
+            <p class="footer-text">Cookies</p>
+            <p class="footer-text">Foodpad</p>
+          </div>
+        </div>
+        <p class="footer-text text-center ptop">&#169;2022 all rights reserved</p>
+      </div>
+    </footer>
+
+
+
+
+
+
+
+   
+    <!--Ionicons icons-->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--script js-->
+  <script src="/main.js"></script>
+<!--aos js-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init({
+    offset:300,
+    duration:1000,
+  });
+</script>
+  </body>
+</html>
